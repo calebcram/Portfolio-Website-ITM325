@@ -1,0 +1,184 @@
+﻿/* Import reset*/
+@import url('Reset.css');
+
+html {
+    background-color: #DCDCDC;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72.5%; /* 10 px based on a browser default of 16px */
+}
+
+body {
+    line-height: 1.4;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 5rem;
+    color: #DCDCDC;
+    text-align: center;
+    clear: both;
+    padding: 0.7rem 1.5rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #50ccca;
+    text-align: center;
+}
+
+    h2 a {
+        font-size: inherit;
+    }
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+/* wep page layout */
+#WebPage {
+    width: 960px;
+    margin: 1.5rem auto;
+}
+/* banner */
+#banner {
+    background-color: #50ccca;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #333333;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+    #banner a#MTop {
+        float: right;
+        border-radius: 20px;
+    }
+
+        #banner a#MTop img {
+            height: 127px;
+            width: 945px;
+            border-radius: 20px;
+        }
+
+    #banner nav {
+        background-color: black;
+        border-radius: 10px;
+        padding: 0.5rem 0;
+        overflow: hidden;
+    }
+
+        #banner nav ul {
+            text-align: center;
+        }
+
+        #banner nav li {
+            display: inline;
+        }
+
+        #banner nav a {
+            color: #dcdcdc;
+            padding: 1.0rem 2.0rem;
+        }
+
+            #banner nav a:hover {
+                background-color: #50ccca;
+            }
+/* content area */
+
+#Wrapper {
+    background-color: #50ccca;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+    #Wrapper h2 {
+        padding: 1.0rem 0;
+    }
+
+#SideLinks {
+    width: 15%;
+    float: left;
+}
+
+    #SideLinks ul {
+        text-align: center;
+    }
+
+    #SideLinks li {
+        padding-bottom: 10px;
+    }
+
+    #SideLinks a {
+        color: black;
+    }
+
+        #SideLinks a:hover {
+            color: #50ccca;
+            text-decoration: underline;
+        }
+/* blog articles */
+#Posts {
+    width: 85%;
+    float: right;
+    background-color: white;
+}
+
+    #Posts a {
+        color: #50ccca;
+    }
+
+        #Posts a:hover {
+            color: #e0fdff;
+            text-decoration: underline;
+        }
+
+    #Posts p {
+        padding: 0.5rem;
+    }
+
+    #Posts hr {
+        border-color: #50ccca;
+        border-style: ridge;
+    }
+    #50
+    #Posts footer {
+        padding: 0.5rem;
+    }
+
+#Footer {
+    background-color: #50ccca;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+    #Footer #GimmPic {
+        float: left;
+    }
+
+    #Footer #BSU {
+        float: right;
+    }
+
+#BSU a img {
+    height: 70px;
+}
+
+#Footer p{
+    clear:both;
+    padding-top: 1rem;
+    text-align:center;
+    font-size:1rem;
+    font-style:italic;
+}

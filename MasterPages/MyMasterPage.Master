@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMasterPage.master.cs" Inherits="MasterPagesHW5.MasterPages.MyMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>ITM325 MasterPage CalebCram</title>
+    <link href="../Styles/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <div id="WebPage">
+
+          <header id="banner">
+            <a href="MTop">
+                <img height="320" width="920" src="../Images/MountianTop.JPG" />
+            </a>
+            <h1>ITM 325 First site</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="Article1.aspx">Skills</a></li>
+                    <li><a href="Article2.aspx">Art</a></li>
+                    <li><a href="Article3.aspx">XR Dev</a></li>
+                    <%--<li><a href="#">About</a></li>
+                    <li><a href="#">Legal</a></li>--%>
+                    <li><a href="SimpleCalc.aspx">SimpleCalc</a></li>
+                </ul>
+            </nav>
+        </header>
+
+         <div id="Wrapper">
+
+               <aside id="SideLinks">
+                <h2> Side Links</h2>
+                <ul>
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="Article1.aspx">Skills</a></li>
+                    <li><a href="Article2.aspx">Art</a></li>
+                    <li><a href="Article3.aspx">XR Dev</a></li>
+                    <li><a href="SimpleCalc.aspx">Calculator</a></li>
+                </ul>
+            </aside>
+
+    <form id="form1" runat="server">
+        <section id="Posts">
+        
+            <asp:ContentPlaceHolder ID="Articles" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    </form>
+
+             </div>
+
+          <footer id="Footer">
+            <a href="GimmPic"> <img src="../Images/ARSIS.PNG" /> /></a>
+            <a href="BSU">
+                <img height="320" width="320" src="../Images/BSU.jpg" />
+            </a>
+              <script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/youtube.xml&up_channel=CalebCram&synd=open&w=320&h=390&title=&border=%23ffffff%7C3px%2C1px+solid+%23999999&output=js"></script>
+
+              <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+              <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="caleb-cram-devloper"><a class="LI-simple-link" href='https://www.linkedin.com/in/caleb-cram-devloper?trk=profile-badge'>Caleb Cram</a></div>
+            <div>
+                <p>&copy; Copyright 2021 Caleb Cram & Boise state
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+S
